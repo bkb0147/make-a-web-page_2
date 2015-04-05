@@ -1,0 +1,357 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+      <title>Bryan's notes</title>
+      <link rel="stylesheet" type="text/css" href="stage1.css">
+  </head>
+<body>
+  <div class="TOC">
+    <h1>Table of Contents</h1>
+      <ol>
+        <li><a href="#lesson-1">Lesson 1: Basics</a>
+          <ul>
+            <li><a href="#lesson-1-1">How the Web Works</a></li>
+            <li><a href="#lesson-1-2">Thinking Like A Programmer</a></li>
+            <li><a href="#lesson-1-3">HTML</a></li>
+            <li><a href="#lesson-1-4">Tags And Elements</a></li>
+            <li><a href="#lesson-1-5">Why Computers Are Stupid</a></li>
+            <li><a href="#lesson-1-6">Inline / Block Elements</a></li>
+            <li><a href="#lesson-1-7">How Learning To Code Works</a></li>
+          </ul>
+        </li>
+        <li class="TOC-lesson"><a href="#lesson-2">Lesson 2: Web Pages, Documents, And Structure</a>
+          <ul>
+            <li><a href="#lesson-2-1">Creating Structureed Documents With HTML</a></li>
+            <li><a href="#lesson-2-2">Important Things To Take Away</a></li>
+            <li><a href="#lesson-2-3">DOM - Document Object Model</a></li>
+            <li><a href="#lesson-2-4">How To Listen To Experts</a></li>
+            <li><a href="#lesson-2-5">The Toois Programmers Use To Write Code</a></li>
+            <li><a href="#lesson-2-6">Boxes To HTML</a></li>
+            <li><a href="#lesson-2-7">HTML Structure</a></li>
+            <li><a href="#lesson-2-8">The Relationship Between Indented HTML And Boxes</a></li>
+          </ul>
+        </li>
+        <li class="TOC-lesson"><a href="#lesson-3">Lesson 3: Box Sizing and Adding CSS Style to HTML Structure</a>
+          <ul>
+            <li><a href="#lesson-3-1">Four Main Ideas</a></li>
+            <li><a href="#lesson-3-2">Box Positioning</a></li>
+            <li><a href="#lesson-3-3">Code, Test, Refine</a></li>
+            <li><a href="#lesson-3-4">Avoiding Repetition</a></li>
+            <li><a href="#lesson-3-4">CSS</a></li>
+          </ul>          
+        </li>
+      </ol>
+    </div>    
+    <div class="lesson">
+      <h1>Lesson 1: BASICS</h1>
+      <div class="concept">
+        <div class="concept-title">
+          How The Web Works
+        </div>
+        <div class="concept-description">
+          <p>
+            The web is a bunch of computers that communicate
+            with each other. When a person goes to a web
+            page. The computer sends
+            a <span class="italic">HTTP Request</span> to a <span class="italic">server</span>.
+          </p>
+          <p> The server finds the appropriate HTML document and sends
+            it back to the user's computer where a <em>web browser</em>
+            interprets the page and displays it on the user's screen.
+          </p>
+          <p>
+          <b>Tags</b>-tells the computer what to do in a way it can understand.
+          </p>
+          <p>
+            <b>Http</b> - is the communications protocal used mainly on the web.
+          </p>
+          <p>
+            <b>Servers</b> - computers that host files that make up the web.
+          </p>
+          <p>
+            <b>Internet</b> - world's largest computer network.
+          </p>
+          <p>
+            <b>Browser</b> - A program that runs on your computer to interpret and display files found on the web host servers.
+          </p>
+        </div>
+      </div>      
+      <div class="concept">
+        <div class="concept-title">
+          Thinking  Like A Programmer
+        </div>
+          <div class="concept-description">                       
+              <ol>
+                  <li>Procedural thinking- take big problems and brake them down into smaller steps.</li>
+                  <li>Abstract thinking- apple + apple = 2 apples, orange + orange = 2 oranges
+                  abstract concept (1+1=2)</li>
+                  <li>Systematic Debugging- Identify problems and track down causes and fixes.</li>
+                  <li>Technologic Empathy- uderstand how a computer sees things.</li>
+                  <li>Systems thinking- take one big idea and brake it dowon into smaller steps.</li>
+               </ol>                        
+            </div>
+          </div>              
+        <div class="concept">
+          <div class="concept-title">
+              HTML
+          </div>
+            <div class="concept-description">
+              <p>
+               HTML stands for <em>Hypertext Markup Language</em>. HTML documents form the majority of the content on the web. HTML documents contain ""text content" which describes "what you see" and <em>markup</em> which describes "how it looks".
+              </p>      
+              <p>
+               *test browser link (www.udacity.com/html_playground)
+              </p>
+            </div>
+          </div>
+          <div class="concept">
+            <div class="concept-title">
+              Tags And Elements
+            </div>
+            <div class="concept-description">
+              <p>
+                <b>HTML documents</b> are made of <b>HTML elements</b>. When writing 
+                 HTML, we tell browsers the type of each element by using <b>HTML tags</b>.
+                  <br>
+                <b>HTML MARKUP</b><br>
+                  (tag)content(tag)<br>
+                  This is an element. ex. &lt;b>{opentag}content&lt;/b>{closetag}    
+              </p>
+            </div>
+          </div>
+          <div class="concept">
+            <div class="concept-title">
+              Why Computers Are Stupid
+            </div>
+            <div class="concept-description">
+              <p>- they interpret instructions literally. Small mistakes, 
+              like typos or incorrct tags or element construction by a programmer
+               can cause huge problems in a program.
+               </p>
+            </div>
+          </div> 
+          <div class="concept">
+            <div class="concept-title">
+              Inline / Block Elements
+            </div>
+            <div class="concept-description">
+              <p>
+                <span class="bold">HTML elements</span> are either
+                 <span class="bold">inline</span> or <span class="bold">block.</span>
+                  Block elements form an "invisible box" around the content inside
+                  of them.
+              </p>
+            </div>
+          </div>
+          <div class="concept">
+            <div class="concept-title">
+              How Learning To Code Works
+            </div>
+            <div class="concept-description">
+              
+                4 Stages Of Learning
+                <ol>
+                  <li><strong>Novice</strong> - ignorance (No knowledge of subject)
+                  </li>
+                  <li><strong>Awareness</strong> - when you notice "become aware of some new information."
+                  </li>
+                  <li><strong>Ability</strong> -  practicing learned skills  
+                  </li>
+                  <li><strong>Fluency</strong> - being able to proform tasks with little thought because they come to you naturally.</li>
+                </ol>
+              
+            </div>
+          </div> 
+    <div class="lesson">
+      <h1>Lesson 2: Web Pages, Documents, And Structure</h1>
+      <div class="concept">
+        <div class="concept-title">
+          Creating Structured Documents With HTML
+        </div>
+          <div class="concept-description">
+          </div>
+      </div>
+      <div class="concept">
+        <div class="concept-title">
+          Important Things To Take Away
+        </div>
+           <div class="concept-description">
+            
+              <ol>
+               <li>HTML & CSS are both "Languages"</li>
+               <li>HTML  controls the "structure" of a web page</li>
+               <li>CSS controls the "style" of a web page (How it looks)</li>
+               <li>when programmers talk about the "<b>DOM</b>" they are talking about the tree-like structure of a page</li>
+              </ol>
+             
+            </div>
+          </div>
+        </div>
+          <div class="concept">
+            <div class="concept-title">
+              <strong>DOM - Document Object Model</strong>
+            </div>
+              <div class="concept-description">
+                <p>
+                  All elements on a web page are boxes. The "tree-like structure" comes from
+                  the fact that HTML elements can have other elements inside of them.  browsers
+                  display this structure as a series of nested boxes.
+                </p>
+              </div>
+            </div>
+            <div class="concept">
+              <div class="concept-title">
+                How To Listen To Experts
+              </div>
+              <div class="concept-description">
+                
+                  Start by coding big boxes first then add the smaller subboxes. 
+                  The Title and a graphic might be the first box. Then the body
+                  containing text and url links with graphics or video or music would
+                  be the second big box. Then break the graphics and text and other
+                  elements into smaller boxes to code.
+                 
+               </div>
+            </div>
+            <div class="concept">
+              <div class="concept-title">
+                The Tools Programmers Use To Write Code
+              </div>
+              <div class="concept-description">
+                <p>
+                  -<b>scratchpad</b> for small projects<br><br>
+                  -<b>sublime text 2</b> for larger more complex projects
+                </p>
+               </div>
+              </div>
+              <div class="concept">
+                <div class="concept-title">
+                  Boxes To HTML
+                </div>
+                <div class="concept-description">
+                  <p>
+                    Start by using &lt;div>&lt;/div> for each natural box which are
+                    text, images, video, and so on.  Next add place holders so you
+                    are reminded what goes in that &lt;div>&lt;/div>.
+                  </p>
+                  <p>
+                    ex. &lt;div>My App&lt;/div><br>
+                         &lt;div><br>
+                           &lt;div>image&lt;/div><br>
+                           &lt;div>text&lt;/div><br>
+                         &lt;/div><br>
+                  </p>
+                  <p>
+                    next apply style.
+                  </p>
+                  <p>
+                    ex. "class attribute" <br>
+                    (like labels on a box) to remind you what is inside.
+                    class names need to make sense<br><br>
+                  </p>
+                  <p>
+                    ex. &lt;div class="title">My App&lt;/div><br>
+                        &lt;div class="app>"<br>
+                        &lt;div class="screenshot">image&lt;/div><br>
+                        &lt;div class="description">text&lt;/div><br>
+                  </p>
+                </div>
+              </div>
+              <div class="concept">
+                <div class="concept-title">
+                  HTML Structure
+                </div>
+                <div class="concept-description">
+                  <p>
+                    Like branches of a tree, HTML elements can have element boxes 
+                    nested inside them.
+                  </p>
+                </div>
+              </div>
+              <div class="concept">
+                <div class="concept-title">
+                  The Relationship Between Indented HTML And Boxes
+                </div>
+                <div class="concept-description">
+                  <p>
+                    The more indented a element is; the more deeply nested it's corresponding "box" will be.
+                  </p>
+                </div>
+              </div>      
+         <div class="lesson">
+          <h1>Lesson 3:Box Sizing</h1>
+          <div class="concept">
+            <div class="concept-title">
+              Four Main Ideas
+            </div>
+            <div class="concept-description">
+              <p>
+                <ol>
+                  <li>HTML elements are boxes and each box has 4 components- margins, borders, padding, and content.</li>
+                  <li>Because there are so many components to each box, it can often be hard to get the size of the box right.</li>
+                  <li>There are two techniques you can use to help deal with sizing issues.
+                    set sizes interms of percent rather than pixels.<br>
+                    set the box-sizing attribute to border-box for every element.</li>
+                  <li>Different browsers work slightly differently. Sometimes this causes different browsers to display the same code differently.</li>
+                </ol><br><br>
+                <p>
+                  ex. Style.css
+                      &lt;*{
+                      box-sizing: border-box;&gt;
+                </p>              
+              </div>
+            </div>
+          </div>
+          <div class="concept">
+             <div class="concept-title">
+              Box Positioning
+          </div>
+          <div class="concept-description">            
+              <ol>
+                <li>Divs are <u>block</u> elements (as opposed to <u>inline</u> elements). By default they take up the entire width of a page.</li>
+                <li>adding the rule [display-flex;] to the appropriate css will over ride this behavior and let divs appear next t eachother.</li>
+              </ol>            
+          </div>
+        </div>
+        <div class="concept">
+            <div class="concept-title">
+              Code,Test,Refine
+            </div>
+            <div class="concept-description">
+              <p>
+                <ol>
+                  <li>look for natural boxes</li>
+                  <li>look for repeated styles and semantic elements</li>
+                  <li>write your HTML</li>
+                  <li>apply styles (from biggest to smallest)</li>
+                  <li>fix the small things</li>
+                </ol>             
+            </div>
+        </div>
+        <div class="concept">
+          <div class="concept-title">
+            Avoiding Repetition
+          </div>
+            <div class="concept-description">
+              <p>
+                <b>Avoiding Errors:</b> Avoiding repetition helps redue the likely hood of not consistantly entering code over and over and repeating certain style attributes into many HTML elements or code. Errors can be eaily made when programmers make changes to the code.
+              </p>
+              <p>
+                <b>Consistency:</b> By assigning each lesson to look the same. I was able to assign each lesson <b>div</b> the same <b>class</b> and specify the style for that class in my css file which makes changes much easier and avoid making duplication errors.
+              </p>
+            </div>
+          </div>
+          <div class="concept">
+            <div class="concept-title">
+              CSS
+            </div>
+              <div class="concept-description">
+                <p>
+                  CSS stands for Cascading Style Sheets and they give programmers a way to control the style of related HTML elements. This is done by giving similar HTML elements the same <span class="code">class</span> name and then specifying the style that should apply to that class.
+                </p>
+              </div>
+            </div>
+          </div>        
+            
+</body>
+</html>
